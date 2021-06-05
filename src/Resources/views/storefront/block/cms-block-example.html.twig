@@ -1,0 +1,13 @@
+{% block block_example %}
+    {% set element = block.slots.getSlot('main') %}
+    {% set columns = 1 %}
+
+    <div class="col-12 cms-block-example" data-cms-element-id="{{ element.id }}">
+        {% block block_example_content_inner %}
+            <div class="cms-block-example-inner">
+                <h2>SwagExampleCmsElement: CMS Block</h2>
+                {% sw_include "@Storefront/storefront/element/cms-element-" ~ element.type ~ ".html.twig" ignore missing %}
+            </div>
+        {% endblock %}
+    </div>
+{% endblock %}

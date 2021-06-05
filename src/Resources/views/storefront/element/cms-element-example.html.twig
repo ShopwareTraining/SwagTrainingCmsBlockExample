@@ -1,0 +1,10 @@
+{% block element_example %}
+    <div class="cms-element-example">
+        {% block element_example_content_inner %}
+            <div class="cms-element-example-inner">
+                <h3>SwagExampleCmsElement: CMS Element</h3>
+                <pre>{{ element.config.content.value }}</pre>
+            </div>
+        {% endblock %}
+    </div>
+{% endblock %}

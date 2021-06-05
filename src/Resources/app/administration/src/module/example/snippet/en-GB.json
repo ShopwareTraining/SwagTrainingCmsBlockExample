@@ -1,0 +1,14 @@
+{
+    "sw-cms": {
+        "elements": {
+            "example": {
+                "label": "Example element"
+            }
+        },
+        "blocks": {
+            "example": {
+                "label": "Example block"
+            }
+        }
+    }
+}
