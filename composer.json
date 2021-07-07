@@ -1,18 +1,17 @@
 {
-    "name": "swag/plugin-example-cms-block",
-    "description": "Example CMS Block plugin",
+    "name": "swag-training/cms-block-example",
+    "description": "Example CMS Block and CMS Element",
     "type": "shopware-platform-plugin",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Swag\\ExampleCmsElement\\": "src/"
+            "SwagTraining\\CmsBlockExample\\": "src/"
         }
     },
     "extra": {
-        "shopware-plugin-class": "Swag\\ExampleCmsElement\\SwagExampleCmsElement",
+        "shopware-plugin-class": "SwagTraining\\CmsBlockExample\\SwagTrainingCmsBlockExample",
         "label": {
-            "en-GB": "Example CMS Block plugin",
-            "de-DE": "Beispiel CMS Block plugin"
+            "en-GB": "Example CMS Block and CMS Element"
         }
     }
 }
