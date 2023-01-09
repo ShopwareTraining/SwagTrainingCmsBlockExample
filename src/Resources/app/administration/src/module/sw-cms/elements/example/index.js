@@ -12,7 +12,7 @@ Shopware.Service('cmsService').registerCmsElement({
         content: {
             source: 'static',
             value: '',
-            required: true,
+            required: true
         }
     }
 });
